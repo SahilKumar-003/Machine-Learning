@@ -9,7 +9,7 @@ st.set_page_config(
 )
 
 # Load Model
-MODEL_PATH = r"C:\Users\sahil\OneDrive\Desktop\ML\SLR.joblib"
+MODEL_PATH = "SLR.joblib"
 
 try:
     model = joblib.load(MODEL_PATH)
